@@ -25,7 +25,7 @@ function formatTime(seconds) {
 }
 
 async function getSongs() {
-  let a = await fetch("http://127.0.0.1:5500/SpotifyClone/songs");
+  let a = await fetch("https://manoj-kr24.github.io/Music-Player/songs");
 
   let response = await a.text();
   // console.log(response);
